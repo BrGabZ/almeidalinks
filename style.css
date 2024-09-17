@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+:root{
+  --text-color: white;
+  --br-url: url(./assets/bg-mobile.jpg);
+}
+
+.light{
+  --text-color: black;
+  --br-url: url(./assets/bg-mobile-light.jpg);
+
+}
+
 body{
   /*Estrutura passo a passo
   background-image: url(./assets/bg-mobile.jpg);
@@ -12,18 +23,18 @@ body{
   background-size: cover;*/
   
   /*Codigo redusido*/
-  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover; 
+  background: var(--br-url) no-repeat top center/cover; 
 }
 
 body *{
   font-family: "Inter" , sans-serif;
-  color: white;
+  color: var(--text-color);
 }
 
 #container{
   width: 360px;
-  border: 1px solid red;
   margin: 56px auto 0px;
+  padding: 24px;
 
 }
 
@@ -45,11 +56,72 @@ body *{
   margin-top: 8px;
 }
 
+/*Remove estilo de lista*/
 ul{
-  text-align: center;
-  
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 24px 0;
+}
+/*Alinhamento de lista*/
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+
+  /*aparencia dos botoes*/
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+
+  /*tirar efeito do texto e aplicar bold na fonte*/
+  text-decoration: none;
+  font-weight: 500;
+
+  transition: background 0.2s;
+
 }
 
-ul li a{
+/*Aplica auterações quando passa o mouse*/
+ul li a:hover{
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px var(--text-color);
+}
+
+#social-links{
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+
+  font-size: 24px;
+}
+
+#social-links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+  transition: background 0.2s;
+  border-radius: 50%;
+
+}
+
+/*Aplica auterações quando passa o mouse*/
+#social-links a:hover{
   
+  background: rgba(255, 255, 255, 0.2);
+
+}
+
+/*Rodapé*/
+footer{
+  padding: 24px 0;
+  text-align: center;
+  font-size: 14px;
 }
