@@ -18,8 +18,6 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <br>
 
-
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -33,8 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://gabzalmeida.github.io/devlinks)
-
+- [Acesse o projeto finalizado, online](https://gabzalmeida.github.io/almeidalinks/)
 
 ## :memo: Licença
 
@@ -42,6 +39,6 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito Por Gabriel Almeida 
+Feito Por Gabriel Almeida
 
 [Participe da nossa comunidade!](https://discord.gg/rocketseat)
