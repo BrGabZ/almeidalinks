@@ -33,7 +33,7 @@ body {
 
   /*Codigo redusido*/
   background: var(--br-url) no-repeat top center/cover;
-  ''height: 100vh;
+  height: 100vh;
 }
 
 body * {
@@ -85,7 +85,6 @@ body * {
   top: 50%;
 
   animation: slide-back 0.4s;
-
 }
 
 #switch button:hover {
@@ -183,7 +182,7 @@ footer {
   }
 }
 
-@keyframes slide-in{
+@keyframes slide-in {
   from {
     left: 0;
   }
@@ -192,7 +191,7 @@ footer {
   }
 }
 
-@keyframes slide-back{
+@keyframes slide-back {
   from {
     right: 0;
   }
@@ -200,4 +199,3 @@ footer {
     right: 50%;
   }
 }
-

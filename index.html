@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="light">
-<head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>devlinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="foto do gabriel almeida sem camiseta, oculos na cabeça e fundo de praia "
+        />
+        <p>@GabrielAlmeida</p>
+      </div>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>devlinks</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div id="container">
-    <div id="profile">
-      <img src="./assets/avatar.png" 
-      alt="foto do gabriel almeida sem camiseta, oculos na cabeça e fundo de praia "/>
-      <p>@GabrielAlmeida</p>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <ul>
+        <li>
+          <a href="https://www.youtube.com/@BR_GabZ">Inscreva-se</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/gabzalmeida/almeidalinks"
+            >Veja meu portifolio</a
+          >
+        </li>
+
+        <li>
+          <a href="#">Baixar E-book</a>
+        </li>
+
+        <li>
+          <a href="#">Conheça o explorar</a>
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://github.com/gabzalmeida/almeidalinks">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://www.youtube.com/@BR_GabZ">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/br_gabz/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/gabriel-almeida-367960226/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>Feito por Gabriel Almeida</footer>
     </div>
-    
-    <div id="switch" onclick="toggleMode()">
-      <button></button>
-      <span></span>
-    </div>
-    <ul>
-      <li>
-        <a href="#">Inscreva-se</a>
-      </li>
 
-      <li>
-        <a href="#">Veja meu portifolio</a>
-      </li>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
 
-      <li>
-        <a href="#">Baixar E-book</a>
-      </li>
-
-      <li>
-        <a href="#">Conheça o explorar</a>
-      </li>
-    </ul>
-    
-    <div id="social-links">
-      <a href="">
-        <ion-icon name="logo-github"></ion-icon>
-      </a>
-
-      <a href="">
-        <ion-icon name="logo-youtube"></ion-icon>
-      </a>
-      
-      <a href="">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a>
-      
-      <a href="">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a>
-
-    </div>
-
-    <footer>
-      Feito por Gabriel Almeida
-    </footer>
-
-  </div>
-  
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-  <script src="./script.js"></script>
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
