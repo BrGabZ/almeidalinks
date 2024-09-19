@@ -33,6 +33,7 @@ body {
 
   /*Codigo redusido*/
   background: var(--br-url) no-repeat top center/cover;
+  ''height: 100vh;
 }
 
 body * {
